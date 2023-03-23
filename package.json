@@ -1,0 +1,23 @@
+{
+  "name": "@tblaisot/asciidoctorjs-templates-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./index.cjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asciidoctor/core": "^2.2.6",
+    "asciidoctor": "^2.2.6",
+    "asciidoctor-highlight.js": "^0.4.0"
+  }
+}
