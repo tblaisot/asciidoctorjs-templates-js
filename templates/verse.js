@@ -6,9 +6,7 @@
 //   - else
 //     pre.verse =content
 
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithTitle} = require("./helpers/html.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
+const {toJSON, $blockWithTitle, data_attributes} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     const jNode = toJSON(node);

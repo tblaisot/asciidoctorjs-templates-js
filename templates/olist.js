@@ -1,6 +1,10 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithTitle} = require("./helpers/html.helpers");
-const {$printItemContent, data_attributes} = require("./helpers/render.helpers");
+const {
+    toJSON,
+    $,
+    $blockWithTitle,
+    $printItemContent,
+    data_attributes
+} = require("../helpers/index.cjs");
 
 // FIXME case .with-numeration-styles
 // FIXME case .max-nesting

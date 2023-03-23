@@ -1,5 +1,5 @@
-const {$, $div, $metaIf} = require("./helpers/html.helpers");
-const {isEmptyString} = require("./helpers/utils.helpers");
+const {$, $div, $metaIf, isEmptyString} = require("../helpers/index.cjs");
+const {} = require("../helpers/index.cjs");
 const {templateHeader} = require("./_header");
 const {templateFooter} = require("./_footer");
 const {footnotesTemplate} = require("./_footnotes");

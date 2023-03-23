@@ -4,7 +4,7 @@
  * provided as a class in AsciDoctor
  * @param {AbstractBlock} node the node to test
  */
-const {isString} = require("./utils.helpers");
+const {isString} = require("./utils.helpers.cjs");
 
 function getBlockType(node) {
     const nodeName = node.getNodeName()

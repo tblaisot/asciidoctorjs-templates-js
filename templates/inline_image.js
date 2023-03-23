@@ -1,7 +1,12 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $wrapIf} = require("./helpers/html.helpers");
-const {isDefined} = require("./helpers/utils.helpers");
-const {linkRel, icon_fa_classes, data_attributes} = require("./helpers/render.helpers");
+const {
+    toJSON,
+    $,
+    $wrapIf,
+    isDefined,
+    linkRel,
+    icon_fa_classes,
+    data_attributes
+} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     const jNode = toJSON(node);

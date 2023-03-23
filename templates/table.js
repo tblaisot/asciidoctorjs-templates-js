@@ -1,7 +1,4 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithCaption, $p} = require("./helpers/html.helpers");
-const {debug} = require("./helpers/debug.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
+const {toJSON, $, $blockWithCaption, $p, data_attributes} = require("../helpers/index.cjs");
 
 function cellContent(cell, tblsec) {
     if (tblsec === 'head') {

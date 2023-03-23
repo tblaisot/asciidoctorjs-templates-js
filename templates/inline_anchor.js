@@ -1,7 +1,11 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $a} = require("./helpers/html.helpers");
-const {xrefText, linkRel, bibrefText, data_attributes} = require("./helpers/render.helpers");
-
+const {
+    toJSON,
+    $a,
+    xrefText,
+    linkRel,
+    bibrefText,
+    data_attributes
+} = require("../helpers/index.cjs");
 
 // FIXME case .xref-resolved-text
 // FIXME case .xref-xrefstyle

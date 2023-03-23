@@ -1,4 +1,4 @@
-const {$, $span} = require("./helpers/html.helpers");
+const {$, $span} = require("../helpers/index.cjs");
 const {tocTemplate} = require("./_toc");
 
 module.exports.templateHeader = function (node) {
