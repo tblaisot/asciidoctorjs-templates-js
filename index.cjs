@@ -1,2 +1,2 @@
-module.exports.TEMPLATES = require('./templates.cjs');
-module.exports.HELPERS = require('./helpers.cjs');
+module.exports.TEMPLATES = require('./templates/index.cjs');
+module.exports.HELPERS = require('./helpers/index.cjs');

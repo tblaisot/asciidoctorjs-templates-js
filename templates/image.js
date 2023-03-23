@@ -1,8 +1,14 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithCaption, $wrapIf} = require("./helpers/html.helpers");
-const {debug} = require("./helpers/debug.helpers");
-const {isDefined, isEmptyString} = require("./helpers/utils.helpers");
-const {imageLink, imageLinkLabel, linkRel, data_attributes} = require("./helpers/render.helpers");
+const {
+    toJSON,
+    $,
+    $blockWithCaption,
+    $wrapIf,
+    isEmptyString,
+    imageLink,
+    imageLinkLabel,
+    linkRel,
+    data_attributes
+} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     const jNode = toJSON(node);

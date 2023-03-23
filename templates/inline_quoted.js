@@ -1,7 +1,14 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $wrapIf, $span} = require("./helpers/html.helpers");
-const {CURLY_QUOTES, DEFAULT_LANG} = require("./helpers/const.helpers");
-const {stemLang, delimitStem, data_attributes} = require("./helpers/render.helpers");
+const {
+    toJSON,
+    $,
+    $wrapIf,
+    $span,
+    CURLY_QUOTES,
+    DEFAULT_LANG,
+    stemLang,
+    delimitStem,
+    data_attributes
+} = require("../helpers/index.cjs");
 
 /**
  * @param text [String] the text to wrap in double quotes.

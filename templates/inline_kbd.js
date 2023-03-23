@@ -1,5 +1,4 @@
-const {$} = require("./helpers/html.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
+const {$, data_attributes} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     const keys = node.getAttribute('keys');

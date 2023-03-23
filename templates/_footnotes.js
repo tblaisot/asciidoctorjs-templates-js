@@ -1,5 +1,4 @@
-const {$, $section, $a} = require("./helpers/html.helpers");
-const {footnoteId, footnoteRefId} = require("./helpers/render.helpers");
+const {$, $section, $a, footnoteId, footnoteRefId} = require("../helpers/index.cjs");
 
 module.exports.footnotesTemplate = function (node) {
     return $section({

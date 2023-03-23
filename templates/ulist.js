@@ -1,7 +1,11 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithTitle} = require("./helpers/html.helpers");
-const {$printItemContent, data_attributes} = require("./helpers/render.helpers");
-const {isDefined} = require("./helpers/utils.helpers");
+const {
+    toJSON,
+    $,
+    $blockWithTitle,
+    $printItemContent,
+    data_attributes,
+    isDefined
+} = require("../helpers/index.cjs");
 
 function renderItem(item, checklist) {
     if (checklist && isDefined(item.attributes.checkbox)) {

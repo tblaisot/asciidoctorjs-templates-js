@@ -1,7 +1,4 @@
-const {$, $a} = require("./helpers/html.helpers");
-const {DEFAULT_TOCLEVELS} = require("./helpers/const.helpers");
-const {sectionTitle, sectionLevel} = require("./helpers/render.helpers");
-
+const {$, $a, DEFAULT_TOCLEVELS, sectionTitle, sectionLevel} = require("../helpers/index.cjs");
 
 function child_toc(sec, toclevels) {
     let result = ''

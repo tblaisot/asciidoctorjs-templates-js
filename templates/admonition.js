@@ -1,6 +1,4 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
-const {$, $h6, $span, $p} = require("./helpers/html.helpers");
+const {toJSON, data_attributes, $, $h6, $span, $p} = require("../helpers/index.cjs");
 
 /**
  * @return [Boolean] should be this admonition wrapped in aside element?

@@ -1,6 +1,4 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $blockWithTitle, $div} = require("./helpers/html.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
+const {toJSON, $, $blockWithTitle, $div, data_attributes} = require("../helpers/index.cjs");
 
 /**
  * Returns +true+ if an abstract block is allowed in this document type,

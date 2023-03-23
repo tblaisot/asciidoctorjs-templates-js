@@ -1,5 +1,4 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$} = require("./helpers/html.helpers");
+const {$} = require("../helpers/index.cjs");
 const renderOutline = require("./outline.js")
 
 module.exports.tocTemplate = function (node) {

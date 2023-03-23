@@ -4,8 +4,8 @@
  * @param {string} name the name of the attribute
  * @param {value} value the value of the attribute
  */
-const {isEmptyString, isDefined, isArray, isObject, isString} = require("./utils.helpers");
-const {VOID_ELEMENTS} = require("./const.helpers");
+const {isEmptyString, isDefined, isArray, isObject, isString} = require("./utils.helpers.cjs");
+const {VOID_ELEMENTS} = require("./const.helpers.cjs");
 
 function toAttribute(name, value) {
     // cas des attributs boolean dont la présence seul suffit

@@ -1,12 +1,12 @@
-const {calcSectionNumber} = require("./node.helpers");
+const {calcSectionNumber} = require("./node.helpers.cjs");
 const {
     DEFAULT_SECTNUMLEVELS,
     BLOCK_MATH_DELIMITERS,
     INLINE_MATH_DELIMITERS,
     SLICE_HINT_RX, EOL
-} = require("./const.helpers");
-const {$wrapIf, $} = require("./html.helpers");
-const {isEmptyString} = require("./utils.helpers");
+} = require("./const.helpers.cjs");
+const {$wrapIf, $} = require("./html.helpers.cjs");
+const {isEmptyString} = require("./utils.helpers.cjs");
 
 /**
  * Returns corrected section level.

@@ -1,4 +1,4 @@
-const {$} = require("./helpers/html.helpers");
+const {$} = require("../helpers/index.cjs");
 const {tocTemplate} = require("./_toc");
 const {footnotesTemplate} = require("./_footnotes");
 

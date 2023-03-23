@@ -1,6 +1,4 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$, $section} = require("./helpers/html.helpers");
-const {data_attributes} = require("./helpers/render.helpers");
+const {$, $section, data_attributes} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     let toc = '';

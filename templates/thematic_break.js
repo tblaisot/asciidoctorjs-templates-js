@@ -1,4 +1,4 @@
-const {$} = require("./helpers/html.helpers");
+const {$} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     return $('hr')

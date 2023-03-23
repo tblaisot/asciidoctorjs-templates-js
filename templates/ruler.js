@@ -1,7 +1,12 @@
-const {toJSON} = require("./helpers/node.helpers");
-const {$h, $a, $section} = require("./helpers/html.helpers");
-const {sectionTitle, data_attributes} = require("./helpers/render.helpers");
-const {isDefined} = require("./helpers/utils.helpers");
+const {
+    toJSON,
+    $h,
+    $a,
+    $section,
+    sectionTitle,
+    data_attributes,
+    isDefined
+} = require("../helpers/index.cjs");
 
 module.exports = function ({node}) {
     const jNode = toJSON(node);
