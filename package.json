@@ -27,7 +27,6 @@
   "license": "ISC",
   "dependencies": {
     "@asciidoctor/core": "^3.0.4",
-    "asciidoctor": "^3.0.4",
-    "asciidoctor-highlight.js": "^0.4.0"
+    "asciidoctor": "^3.0.4"
   }
 }
