@@ -1,7 +1,7 @@
 {
   "name": "@tblaisot/asciidoctorjs-templates-js",
   "version": "0.1.0",
-  "description": "",
+  "description": "Alternative HTML5 converter (backend) for asciidoctor coded in full javascript (no Ruby)",
   "repository": {
     "type": "git",
     "url": "https://github.com/tblaisot/asciidoctorjs-templates-js.git"
@@ -23,10 +23,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas Blaisot",
   "license": "ISC",
   "dependencies": {
     "@asciidoctor/core": "^3.0.4",
     "asciidoctor": "^3.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
