@@ -29,7 +29,7 @@ module.exports = function ({node}) {
             return $blockWithTitle({
                     title: jNode.title,
                     id: jNode.id,
-                    class: ['quote-block', 'abstract'],
+                    class: ['quote-block', 'abstract', jNode.role],
                     ...data_attributes(node)
                 },
                 $('blockquote', {}, jNode.content)
@@ -39,7 +39,7 @@ module.exports = function ({node}) {
         return $blockWithTitle({
                 title: jNode.title,
                 id: jNode.id,
-                class: ['open-block', {[jNode.style]: jNode.style !== 'open'}],
+                class: ['open-block', jNode.role, {[jNode.style]: jNode.style !== 'open'}],
                 ...data_attributes(node)
             },
             $div({class: 'content'}, jNode.content)
