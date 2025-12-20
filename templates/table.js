@@ -37,7 +37,7 @@ module.exports = function ({node}) {
                         )
                 )
             ),
-            ['head', 'foot', 'body']
+            ...['head', 'foot', 'body']
                 .filter(tblsec => node.getRows()[tblsec].length > 0)
                 .map(tblsec => $(`t${tblsec}`, {},
                         ...node.getRows()[tblsec].map(row => $('tr', {},
@@ -80,7 +80,7 @@ module.exports = function ({node}) {
 
                 ],
                 style: {
-                    with: (!jNode.options.autowidth && !jNode.options.stretch) ? `${jNode.attributes.tablepcwidth}%` : jNode.attributes.width,
+                    width: (!jNode.options.autowidth && !jNode.options.stretch) ? `${jNode.attributes.tablepcwidth}%` : jNode.attributes.width,
                     float: node.getAttribute('float')
                 }
             },
