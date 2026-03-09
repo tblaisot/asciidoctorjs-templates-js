@@ -1,6 +1,6 @@
 {
   "name": "@tblaisot/asciidoctorjs-templates-js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Alternative HTML5 converter (backend) for asciidoctor coded in full javascript (no Ruby)",
   "repository": {
     "type": "git",
