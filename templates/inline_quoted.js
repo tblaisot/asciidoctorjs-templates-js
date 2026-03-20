@@ -60,7 +60,8 @@ module.exports = function ({node}) {
             return $span({
                 class: 'math',
                 id: jNode.id,
-                'data-lang': stemLang(jNode), ...data_attributes(node)
+                'data-lang': stemLang(jNode),
+                ...data_attributes(node)
             }, delimitStem(jNode, jNode.text, jNode.type))
         default:
             switch (jNode.role) {
@@ -74,7 +75,8 @@ module.exports = function ({node}) {
                 default:
                     return $wrapIf(jNode.role || jNode.id, 'span', {
                         id: jNode.id,
-                        class: jNode.role, ...data_attributes(node)
+                        class: jNode.role,
+                        ...data_attributes(node)
                     }, jNode.text);
             }
     }
